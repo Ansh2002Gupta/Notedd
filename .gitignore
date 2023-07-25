@@ -4,6 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
+/TODO
+/src/components/paper-tecture-1.jpg
+/src/components/paper-tecture-2.jpg
+/src/components/paper-tecture-3.jpg
+/src/components/paper-tecture-4.jpg
 
 # testing
 /coverage

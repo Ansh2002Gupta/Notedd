@@ -9,6 +9,16 @@ const app = express()
 //if you want to use req.body then, you need to write the below command, else you will be errors.
 app.use(express.json())
 
+const cors=require("cors");
+const corsOptions ={
+   origin:'*', 
+   credentials:true,            //access-control-allow-credentials:true
+   optionSuccessStatus:200,
+}
+
+app.use(cors(corsOptions)) // Use this after the variable declaration
+
+
 app.get('/', (req, res) => {
     res.send('Hello Ansh!')
 })
