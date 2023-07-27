@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 
 function Navbar() {
-    
+  let location = useLocation();
+  useEffect(() => {}, [location]);
+
   return (
         <nav className="navbar navbar-expand-lg" style={{boxShadow: "5px 2px 13px currentColor", backgroundColor: 'dimgrey', position: "fixed", width: "100%", top: "0px", zIndex: "1"}}>
              <div className="container-fluid">

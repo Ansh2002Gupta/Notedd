@@ -5,7 +5,7 @@ import NoteContext from '../context/notes/noteContext';
 function AddNote(){
     const context = useContext(NoteContext);
     const {addNote} = context;
-    const [newNote, setNewNote] = useState({title: "",  description: "", tag: ""});
+    const [newNote, setNewNote] = useState({title: "",  description: "", tag: "", date: new Date().toLocaleDateString("en-IN")});
 
     const handleSubmit = (element) => {
         addNote(newNote);

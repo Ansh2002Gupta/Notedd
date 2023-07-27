@@ -20,7 +20,7 @@ router.get('/fetchallnotes', fetchuser, async (req, res) => {
 });
 
 //ROUTE 2: To all notes of the user using his user-id and POST '/api/notes/allnotes' request. User is obviously logged in before hand.
-router.get('/addnotes', fetchuser, [
+router.post('/addnotes', fetchuser, [
         body('title', 'Title should be atleast 3 character long').isLength({min: 3}),
         body('description', 'Description should be atleat 5 characters long.').isLength({min: 5}),
         body('tag', 'tag should not be empty').exists()
@@ -88,8 +88,10 @@ router.delete('/deletenote/:id', fetchuser, async (req, res) => {
         if(!note)
             return res.status(404).send("Note doesn't exists!");
         //check if the note belongs to the user who wants to delete it.
-        if(note.user.toString() != req.user.id)
+        if(note.user.toString() != req.user.id){
+            console.log("You aren't authorized to do so!");
             return res.status(401).send("You aren't authorized to do so!");
+        }
         //deleting the note.
         note = await Note.findByIdAndDelete(req.params.id);
         //this will also work res.send({"Success": "Note Deleted", note: note});
