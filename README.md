@@ -4,11 +4,11 @@
 # Special Features
 <ul>
   <li>The website is end-to-end secure with a beautifull signIn and signUp page. It uses <i>Json Web Token</i> for easy user authentications.</li>
-  <li>It consists of two webpages inside it, namely **Home** and **About**.</li>
+  <li>It consists of two webpages inside it, namely <i>Home</i> and <i>About</i>.</li>
   <li><i>About</i> section is yet to be developed and is our future plan.</li>
   <li><i>Home</i> section consists of a lot of instructing stuff. Firstly, it has a beautiful interface through which you can add you notes. This interface is fully secure and is robust.</li>
   <li>Just below it we have a section where we display all the notes that are related to the user. The app is smart enough in judging to remove this setion if no notes are present.</li>
-  <li></li>
+  <li>An authorized user can only create, read, update and delete the notes. One user can't delete someones eles notes untill and unless they have an authorised access to their notes.</li>
 </ul>
 
 # Architectural Design
