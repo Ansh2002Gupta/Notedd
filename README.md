@@ -13,13 +13,11 @@
 
 # Architectural Design
 **Webpages and components** <br>
-All the webpages and components have been made with *ReactJs, JavaScript, HTML, Tailwind CSS.* <br>
-<br> **Communication between Server and CLient** <br>
-A *Rest Api* has been created to act as an interface in transfering the information from client to server and vice-versa. The database administrator used in MySql Workbench.<br>
+All the webpages and components have been made with *ReactJs, JavaScript, HTML, Bootstrap.* <br>
+<br> **Communication between Server and Client** <br>
+A *Rest Api* has been created to act as an interface in transfering the information from client to server and vice-versa. The database administrator used is MongoDB Compass.<br>
 <br> **User Authentication System** <br>
 The signIn and signUp pages provide the user authentication system through *Json Web Token*. It is used to generate the authentication token which is used to authorize the user to enter into the website and for various other task like to update or delete a post only if it belongs to him.<br>
-<br> **Data Storage** <br>
-All the information related to the user is getting stored in the MySql database. Used a different library known as *Multer* that allows to store the images uploaded by the user into the database as well as on the client side. This not only removes the storage issues but also help in fast retrieval of the data.<br> 
 
 # How to run on localhost ?
 **Prerequistes**
@@ -33,7 +31,7 @@ All the information related to the user is getting stored in the MySql database.
   <li>Open the folder inside <a href="https://code.visualstudio.com/download">VS Code</a></li>
   <li>Install all the dependencies required in creating the project.</li>
   <li>Inside the Server folder install ExpressJS using <i>npm install express</i>.</li>
-  <li>Download the <a href="https://www.mongodb.com/try/download/compass">MySql Workbench</a>. Create database <i>blog</i> which contains two tables <i>users</i> and <i>posts</i>.</li>
+  <li>Download the <a href="https://www.mongodb.com/try/download/compass">MongoDB Compass</a>. Create database <i>blog</i> which contains two tables <i>users</i> and <i>notes</i>.</li>
   <li>Always keep your MongoDB Compass in a <b>running state.</b></li>
   <li>Split the command line into two and change the directories to Server and Client folder in respective folder and run <i>npm run start</i> and <i>npm run dev</i></li>
   <li><b>Enjoy!! :)</b></li>
