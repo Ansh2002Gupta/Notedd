@@ -33,8 +33,8 @@ All the information related to the user is getting stored in the MySql database.
   <li>Open the folder inside <a href="https://code.visualstudio.com/download">VS Code</a></li>
   <li>Install all the dependencies required in creating the project.</li>
   <li>Inside the Server folder install ExpressJS using <i>npm install express</i>.</li>
-  <li>Download the <a href="https://dev.mysql.com/downloads/workbench/">MySql Workbench</a>. Create database <i>blog</i> which contains two tables <i>users</i> and <i>posts</i>.</li>
-  <li>Always keep your MySql Workbench in a <b>running state.</b></li>
+  <li>Download the <a href="https://www.mongodb.com/try/download/compass">MySql Workbench</a>. Create database <i>blog</i> which contains two tables <i>users</i> and <i>posts</i>.</li>
+  <li>Always keep your MongoDB Compass in a <b>running state.</b></li>
   <li>Split the command line into two and change the directories to Server and Client folder in respective folder and run <i>npm run start</i> and <i>npm run dev</i></li>
   <li><b>Enjoy!! :)</b></li>
 </ul>
