@@ -38,3 +38,10 @@ The signIn and signUp pages provide the user authentication system through *Json
 </ul>
 
 # Screenshots
+![notedd1](https://github.com/Ansh2002Gupta/Notedd/assets/84438495/0c20c96d-6c41-4778-8aa0-61d4c4893bb0)
+![notedd3](https://github.com/Ansh2002Gupta/Notedd/assets/84438495/17c68c11-4e45-43a6-a394-a6c6b5e12598)
+![notedd2](https://github.com/Ansh2002Gupta/Notedd/assets/84438495/e047cbd2-08ea-4d95-8188-ce050ed78066)
+![notedd7](https://github.com/Ansh2002Gupta/Notedd/assets/84438495/c60853c2-6709-4e7a-af3d-02133dc75d44)
+![notedd6](https://github.com/Ansh2002Gupta/Notedd/assets/84438495/689aebf5-4603-4408-8fed-39647176b17f)
+![notedd5](https://github.com/Ansh2002Gupta/Notedd/assets/84438495/8e48af7b-5cb7-4142-be6b-bd1f268f11d4)
+![notedd4](https://github.com/Ansh2002Gupta/Notedd/assets/84438495/3a375b32-83ab-4b99-851b-93379823b53a)
